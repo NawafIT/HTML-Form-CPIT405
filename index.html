@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Car Reantal Form</h1>
+    <form action="">
+      <label for="Fname">First Name:</label>
+      <br />
+      <input type="text" id="Fname" name="Fname" required />
+      <br />
+      <label for="Lname">Last Name:</label>
+      <br />
+
+      <input type="text" id="Lname" name="Lname" required />
+      <br />
+      <label for="email">Email</label>
+      <br />
+      <input type="email" id="email" name="email" required />
+      <br />
+      <label for="phone">Phone</label>
+      <br />
+      <input type="text" name="phone" id="phone" placeholder="05xxxxxxxx" />
+      <br />
+      <label for="date-of-brith">Date of Brith</label>
+      <br />
+      <input type="date" name="date-of-brith" id="date-of-brith" />
+      <br />
+      <label for="car-type">Car Type</label>
+      <br />
+      <select name="car-type" id="car-type">
+        <option value="Small Sedan">Small Sedan</option>
+        <option value="Mid-Size">Mid-Size</option>
+        <option value="Large">Large</option>
+      </select>
+
+      <br />
+      <label for="reantal-duration">Rental Duration:</label>
+      <br />
+      <input
+        type="number"
+        id="rental-duration"
+        name="rental-duration"
+        max="30"
+        min="1"
+      />
+      <br />
+      <input type="checkbox" required />
+      <span>Add Comperhensive Insirance Coverage:</span>
+      <br />
+      <label for="start">Rental Start Date:</label>
+      <br />
+      <input type="date" name="start" id="start" />
+      <br />
+      <label for="end">Rental End Date:</label>
+      <br />
+      <input type="date" name="end" id="end" />
+
+      <br />
+      <label for="comment">Additional Comments</label>
+      <br />
+      <textarea id="comment" name="comment" rows="5" cols="25"></textarea>
+      <br />
+      <label for="upload">Upload Driving License:</label>
+      <br />
+      <input type="file" />
+      <br />
+
+      <input type="submit" />
+
+      <h3>Nawaf Aljehani, CPIT405</h3>
+    </form>
+  </body>
+</html>
